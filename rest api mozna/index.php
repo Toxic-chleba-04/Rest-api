@@ -43,7 +43,6 @@
             
             function outputData(){
                 $.ajax({
-                    url: "output.php",
                     success:function(data){
                         $('tbody').html(data);
                     }
